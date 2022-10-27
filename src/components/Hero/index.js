@@ -8,16 +8,26 @@ function Hero() {
     const titleRef = useRef(null);
 
     useEffect(() => {
-        gsap.from(canRef.current, {
-            duration: 1,
-            opacity: 0,
-            y: -500,
-        });
+
         gsap.from(titleRef.current, {
             duration: 1,
             opacity: 0,
             x: -800,
             ease: Power2.easeOut,
+        });
+
+        gsap.from(canRef.current, {
+            duration: 1,
+            opacity: 0,
+            y: -500,
+        });
+
+        gsap.to(canRef.current, {
+            zIndex: 1,
+        });
+
+        gsap.to(titleRef.current, {
+            zIndex: 3,
         });
 
     }, [])
