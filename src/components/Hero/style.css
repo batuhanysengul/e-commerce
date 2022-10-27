@@ -1,0 +1,56 @@
+.hero-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 80vh;
+}
+
+.hero-title {
+  align-items: flex-start;
+  padding-left: 10%;
+  font-weight: 700;
+  font-size: 6vw;
+  text-transform: uppercase;
+  z-index: 3;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-title {
+    font-size: 50px;
+  }
+}
+
+.hero-subtitle {
+  align-items: flex-start;
+  padding-left: 10%;
+  font-weight: 200;
+  font-size: 1vw;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-subtitle {
+    font-size: 15px;
+  }
+}
+
+.hero-can {
+  position: absolute;
+  max-width: 60%;
+  height: auto;
+  top: 15%;
+  right: 10%;
+  z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-can {
+    top: 25%;
+    left: -20%;
+    max-width: 550px;
+    width: 500px;
+    opacity: 0.6;
+  }
+}
+
