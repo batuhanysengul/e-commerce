@@ -29,7 +29,6 @@ function About() {
       scrollTrigger: {
         trigger: aboutp.current,
         start: "top 95%",
-        toggleActions: 'restart none none restart'
       },
     });
 

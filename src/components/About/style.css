@@ -24,3 +24,13 @@
     text-transform: uppercase;
 }
 
+@media screen and (max-width: 768px) {
+    .about-title{
+        font-size: 30px
+    }
+
+    .about-paragraph{
+        font-size: 15px
+    }
+}
+
