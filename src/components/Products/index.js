@@ -25,14 +25,7 @@ function Products() {
                 <div className="product-name">Coca Cola</div>
                 <div className="product-price">$4.99/can</div>
                 <button className='add-btn' style={button}>Add to Cart</button>
-            </div>
-            
-            <div className="single">
-                <img src={canImg} alt="canproduct" className='product-img' />
-                <div className="product-name">Coca Cola</div>
-                <div className="product-price">$4.99/can</div>
-            </div>
-            
+            </div>          
         </div>
     </div>
   )
